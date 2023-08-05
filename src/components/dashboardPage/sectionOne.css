@@ -1,0 +1,39 @@
+.sectionOne-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.divOne {
+  width: 50vw;
+  height: 20rem;
+  padding: 3rem 5rem;
+  background-color: #c5c5c5;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.divOne-heading h1 {
+  font-size: 45px;
+}
+.divOne-text h6 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #303030;
+}
+.divOne-button button {
+  width: 7em;
+  height: 2em;
+  font-size: 17px;
+  border-radius: 2.2em;
+  border: none;
+  background: #ffffff;
+  color: #ff4c11;
+}
+.divTwo {
+  width: 50vw;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url("https://media.istockphoto.com/id/1272685075/photo/emergency-preparedness-natural-disaster-supplies.jpg?s=2048x2048&w=is&k=20&c=Q8fXQgn9lCADawuRQIl1F84ZfL97AXAlo19w5aiNr8I=");
+}

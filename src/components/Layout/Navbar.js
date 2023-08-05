@@ -8,12 +8,12 @@ function Navbar() {
                 Logo
             </div>
             <div className='nav-search-box'>
-                <input type='search' />
-                <span >search</span>
+                <input type='search' placeholder='search' />
+                <div className='nav-search-symbol' ><i class="fa-solid fa-magnifying-glass"></i></div>
             </div>
             <div className='nav-buttons'>
                 <div className='nav-cart'>
-                    cart
+                    <i class="fa-sharp fa-solid fa-bag-shopping"></i> cart
                 </div><div className='nav-login-register'>
                     login/Register
                 </div>

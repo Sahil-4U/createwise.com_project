@@ -1,0 +1,14 @@
+.header-container {
+  width: 100vw;
+  height: 3rem;
+  margin: 0.6rem 0rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bolder;
+}
+.header-container select {
+  font-weight: inherit;
+  border: none;
+  outline: none;
+}
