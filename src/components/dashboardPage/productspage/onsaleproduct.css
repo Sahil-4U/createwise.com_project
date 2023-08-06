@@ -1,0 +1,30 @@
+.onsaleproducts-container {
+  width: 15rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  gap: 1em;
+  border-radius: 0.3em;
+}
+.onsaleproducts-image > img {
+  width: 100%;
+  height: 8rem;
+}
+.products-heading {
+  color: #292929;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.product-button > button {
+  margin-top: 2rem;
+  width: 10em;
+  height: 3em;
+  border-radius: 2.2rem;
+  border: none;
+  background: #ffac01;
+  color: white;
+}

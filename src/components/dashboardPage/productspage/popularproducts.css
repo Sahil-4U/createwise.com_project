@@ -1,0 +1,28 @@
+.popularproducts-container {
+  margin: 1em;
+  padding: 1em 4em;
+  width: 30rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popularproducts-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.popularproducts-text h2 {
+  font-size: 2rem;
+}
+.popularproducts-button > button {
+  width: 7em;
+  height: 1.7em;
+  background-color: white;
+  border: none;
+  border-radius: 2.2em;
+  color: #ff4c11;
+}

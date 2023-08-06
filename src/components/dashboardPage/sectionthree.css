@@ -1,0 +1,33 @@
+.sectionthree-container {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.sectionthree-divone {
+  width: 33vw;
+  border-top: 4px solid #ff9e7e;
+}
+.sectionthree-divtwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 1.9rem;
+}
+.sectionthree-divtwo h1 {
+  font-size: 3rem;
+}
+.sectionthree-divthree {
+  width: 33vw;
+  border-top: 4px solid #ff9e7e;
+}
+
+.sale-product-page {
+  max-width: 75vw;
+  margin: 0rem auto;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  overflow-x: scroll;
+}

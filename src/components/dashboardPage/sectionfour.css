@@ -1,0 +1,24 @@
+.sectionfour-container {
+  margin: 6rem;
+
+  display: flex;
+  gap: 1em;
+}
+.sectionfour-divone {
+  width: 15vw;
+  border-top: 4px solid #ffc1ad;
+}
+.sectionfour-divtwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 1.8rem;
+}
+.sectionfour-divtwo > h1 {
+  font-size: 3.5rem;
+}
+.sectionfour-divthree {
+  width: 17vw;
+  border-top: 4px solid #ffc1ad;
+}
